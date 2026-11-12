@@ -8,6 +8,13 @@
 
 适用于 AlphaPi One S 的四功能桌面：电子吧唧、小智语音助手、网络收音机、手机设置。桌面显示日期、星期、农历、时间秒数和天气；小智采用白底动态表情页。
 
+## 下载
+
+- [源码压缩包](AlphaPi-OneS-source.zip)：下载并解压后查看完整源码及编译说明。
+- [刷机压缩包](AlphaPi-OneS-firmware.zip)：解压后使用其中的 flash.cmd。
+
+本仓库以压缩包形式提供源码，根目录不用于直接编译。以下编译命令需在解压后的源码目录运行。
+
 ## 适用设备
 
 | 项目 | 本版本适配规格 |
@@ -71,3 +78,4 @@ idf.py -B build -D IDF_TARGET=esp32s2 -D "SDKCONFIG_DEFAULTS=previous.defaults;o
 - components/desktop_transport 保留原来源代码和 LICENSE。
 
 请保留仓库内各组件的许可证。不能仅因根目录有 MIT LICENSE，就将所有第三方资源统一声明为 MIT。上游说明保留在 README.upstream.md。
+
